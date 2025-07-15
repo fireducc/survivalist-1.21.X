@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:cut_sandstone"
+  ],
+  "result": {
+    "id": "survivalist:sandstone_bricks",
+    "count": 1
+  }
+}

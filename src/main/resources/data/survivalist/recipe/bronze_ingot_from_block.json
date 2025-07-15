@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bronze_ingot",
+  "ingredients": [
+    "survivalist:bronze_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "survivalist:bronze_ingot"
+  }
+}

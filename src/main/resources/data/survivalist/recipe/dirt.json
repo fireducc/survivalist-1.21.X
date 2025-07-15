@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "survivalist:depleted_dirt",
+        "minecraft:bone_meal"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:dirt"
+    }
+}

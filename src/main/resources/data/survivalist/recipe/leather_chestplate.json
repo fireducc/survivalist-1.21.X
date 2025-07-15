@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:leather",
+    "Y": "#minecraft:wool"
+  },
+  "pattern": [
+    "X X",
+    "YYY",
+    "YYY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_chestplate"
+  }
+}

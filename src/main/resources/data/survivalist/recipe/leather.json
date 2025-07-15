@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "survivalist:fox_hide",
+    "survivalist:fox_hide"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "survivalist:roads",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_straight",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_straight2",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_end",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_turn",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_4way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:road/abandon_village_path_3way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

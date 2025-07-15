@@ -1,0 +1,148 @@
+{
+  "name": "survivalist:houses_taiga",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/foundation0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/foundation1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/foundation2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/foundation3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/foundation4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/house0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/house1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/house2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/house3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/house4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/libary",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/snowy/house/grindstone",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/church",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/blacksmith",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/taiga/house/farmland0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+
+  ],
+  "fallback": "minecraft:empty"
+}

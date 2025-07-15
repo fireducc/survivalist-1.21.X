@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:needs_diamond_tool",
+    "#minecraft:needs_iron_tool",
+    "#survivalist:needs_bronze_tool",
+    "#survivalist:needs_copper_tool",
+    "#minecraft:needs_stone_tool"
+  ]
+}

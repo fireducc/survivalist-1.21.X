@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "survivalist:block/depleted_farmland"
+  }
+}

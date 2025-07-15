@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "group": "tin_nugget",
+  "experience": 0.7,
+  "ingredient": "survivalist:raw_tin",
+  "result": {
+    "id": "survivalist:tin_nugget"
+  }
+}

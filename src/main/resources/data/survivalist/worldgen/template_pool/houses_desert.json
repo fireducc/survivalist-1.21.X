@@ -1,0 +1,147 @@
+{
+  "name": "survivalist:houses_desert",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_foundation0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_foundation1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_foundation2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_house0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_house1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_house2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_house3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/house_ruins1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/house_ruins2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/house_ruins3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/house_ruins4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_tower",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_animal_pen",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_farmland",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/desert/house/desert_farmland2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

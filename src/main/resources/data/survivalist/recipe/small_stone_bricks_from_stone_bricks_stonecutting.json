@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:stone_bricks",
+    "minecraft:stone"
+  ],
+  "result": {
+    "id": "survivalist:small_stone_bricks",
+    "count": 1
+  }
+}

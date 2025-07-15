@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "survivalist:bronze_ingot"
+    },
+    "title": "Bronze Age",
+    "description": "Using Tin and Copper nuggets gain access to Bronze",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "survivalist:survivalist/copper_age",
+  "criteria": {
+    "get_bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "survivalist:bronze_ingot",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

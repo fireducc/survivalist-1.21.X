@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "copper_nugget",
+  "ingredient": [
+    "survivalist:copper_pickaxe",
+    "survivalist:copper_shovel",
+    "survivalist:copper_axe",
+    "survivalist:copper_hoe",
+    "survivalist:copper_sword",
+    "survivalist:copper_helmet",
+    "survivalist:copper_chestplate",
+    "survivalist:copper_leggings",
+    "survivalist:copper_boots"
+  ],
+  "result": {
+    "id": "survivalist:copper_nugget"
+  }
+}

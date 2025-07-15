@@ -1,0 +1,138 @@
+{
+  "name": "survivalist:houses_savanna",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/house5",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/big_house0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/big_house1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/big_house2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/animal_pen",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/butcher",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/blacksmith",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/farmland0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/savanna/house/tall0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

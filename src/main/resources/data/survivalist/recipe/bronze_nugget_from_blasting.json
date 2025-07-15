@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "bronze_nugget",
+  "ingredient": [
+    "survivalist:bronze_pickaxe",
+    "survivalist:bronze_shovel",
+    "survivalist:bronze_axe",
+    "survivalist:bronze_hoe",
+    "survivalist:bronze_sword",
+    "survivalist:bronze_helmet",
+    "survivalist:bronze_chestplate",
+    "survivalist:bronze_leggings",
+    "survivalist:bronze_boots"
+  ],
+  "result": {
+    "id": "survivalist:bronze_nugget"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " L ",
+    "LIL"
+  ],
+  "key": {
+    "I": "#survivalist:base_ingots",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:saddle",
+    "count": 1
+  },
+  "show_notification": true
+}

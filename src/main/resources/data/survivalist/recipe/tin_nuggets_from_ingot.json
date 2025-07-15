@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "tin_nugget",
+  "ingredients": [
+    "survivalist:tin_ingot"
+  ],
+  "result": {
+    "id": "survivalist:tin_nugget",
+    "count": 9
+  }
+}

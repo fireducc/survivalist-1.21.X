@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "survivalist:tin_ore",
+    "survivalist:deepslate_tin_ore",
+    "survivalist:small_stone_bricks",
+    "survivalist:small_stone_brick_slab",
+    "survivalist:small_stone_brick_stairs",
+    "survivalist:small_stone_brick_wall",
+    "survivalist:tin_block",
+    "survivalist:bronze_block"
+  ]
+}
+

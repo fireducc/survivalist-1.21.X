@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mossy_small_stone_bricks",
+  "ingredients": [
+    "survivalist:small_stone_bricks",
+    "minecraft:moss_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalist:mossy_small_stone_bricks"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "survivalist:small_stone_bricks"
+    },
+    "title": {
+      "text": "Survivalist"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "survivalist:block/small_stone_bricks"
+  },
+
+  "criteria": {
+    "bed": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+    "anchor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:respawn_anchor"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:glowstone"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements":
+  [
+    ["bed", "anchor", "crafting_table"]
+  ]
+}

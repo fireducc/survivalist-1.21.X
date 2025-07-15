@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.fire_ducc.survivalist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedMixin",
+    "FarmlandNutrientMixin",
+    "HealthMixin",
+    "HungerBarMixin",
+    "RespawnAnchorMixin",
+    "WakeUpMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

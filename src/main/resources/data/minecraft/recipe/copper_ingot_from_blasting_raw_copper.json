@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "copper_nugget",
+  "ingredient": "minecraft:raw_copper",
+  "result": {
+    "id": "survivalist:copper_nugget"
+  }
+}

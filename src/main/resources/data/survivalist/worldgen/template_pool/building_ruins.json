@@ -1,0 +1,33 @@
+{
+  "name": "survivalist:building_ruins",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:building_ruins/building0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:building_ruins/building1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:building_ruins/building2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

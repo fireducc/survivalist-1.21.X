@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "survivalist",
+	"version": "${2.2}",
+	"name": "Survivalist",
+	"description": "A mod that redoes Minecraft progression",
+	"authors": [
+		"fire_ducc"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/survivalist",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/survivalist/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fire_ducc.survivalist.Survivalist"
+		],
+		"fabric-datagen": [
+			"net.fire_ducc.survivalist.SurvivalistDataGenerator"
+		],
+		"client": [
+			"net.fire_ducc.survivalist.SurvivalistClient"
+		]
+	},
+	"mixins": [
+		"survivalist.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

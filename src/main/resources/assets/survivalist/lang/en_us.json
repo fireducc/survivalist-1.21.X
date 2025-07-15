@@ -1,0 +1,51 @@
+{
+  "block.survivalist.depleted_dirt": "Depleted Dirt",
+  "block.survivalist.depleted_farmland": "Depleted Farmland",
+  "block.survivalist.tin_ore": "Tin Ore",
+  "block.survivalist.tin_block": "Tin Block",
+  "block.survivalist.bronze_block": "Bronze Block",
+  "block.survivalist.exposed_bronze": "Exposed Bronze Block",
+  "block.survivalist.weathered_bronze": "Weathered Bronze Block",
+  "block.survivalist.tarnished_bronze": "Tarnished Bronze Block",
+  "block.survivalist.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.survivalist.small_stone_bricks": "Small Stone Bricks",
+  "block.survivalist.small_stone_brick_stairs": "Small Stone Brick Stairs",
+  "block.survivalist.small_stone_brick_slab": "Small Stone Brick Slab",
+  "block.survivalist.small_stone_brick_wall": "Small Stone Brick Wall",
+  "block.survivalist.mossy_small_stone_bricks": "Mossy Small Stone Bricks",
+  "block.survivalist.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
+  "block.survivalist.rope": "Rope",
+  "block.survivalist.sandstone_bricks": "Sandstone Bricks",
+  "block.survivalist.red_sandstone_bricks": "Red Sandstone Bricks",
+
+
+
+  "item.survivalist.bronze_ingot": "Bronze Ingot",
+  "item.survivalist.bronze_nugget": "Bronze Nugget",
+  "item.survivalist.tin_ingot": "Tin Ingot",
+  "item.survivalist.tin_nugget": "Tin Nugget",
+  "item.survivalist.raw_tin": "Raw Tin",
+  "item.survivalist.fox_hide": "Fox Hide",
+  "item.survivalist.copper_nugget": "Copper Nugget",
+
+
+  "item.survivalist.copper_sword": "Copper Sword",
+  "item.survivalist.copper_pickaxe": "Copper Pickaxe",
+  "item.survivalist.copper_axe": "Copper Axe",
+  "item.survivalist.copper_shovel": "Copper Shovel",
+  "item.survivalist.copper_hoe": "Copper Hoe",
+  "item.survivalist.bronze_sword": "Bronze Sword",
+  "item.survivalist.bronze_pickaxe": "Bronze Pickaxe",
+  "item.survivalist.bronze_axe": "Bronze Axe",
+  "item.survivalist.bronze_shovel": "Bronze Shovel",
+  "item.survivalist.bronze_hoe": "Bronze Hoe",
+
+  "item.survivalist.copper_helmet": "Copper Helmet",
+  "item.survivalist.copper_chestplate": "Copper Chestplate",
+  "item.survivalist.copper_leggings": "Copper Leggings",
+  "item.survivalist.copper_boots": "Copper Boots",
+  "item.survivalist.bronze_helmet": "Bronze Helmet",
+  "item.survivalist.bronze_chestplate": "Bronze Chestplate",
+  "item.survivalist.bronze_leggings": "Bronze Leggings",
+  "item.survivalist.bronze_boots": "Bronze Boots"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survivalist:raw_tin",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survivalist:bronze_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survivalist:copper_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

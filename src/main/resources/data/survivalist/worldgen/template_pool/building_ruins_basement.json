@@ -1,0 +1,15 @@
+{
+  "name": "survivalist:building_ruins_basement",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:building_ruins/basement/basement0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

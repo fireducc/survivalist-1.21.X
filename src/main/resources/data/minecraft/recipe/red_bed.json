@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "OOO"
+    ],
+    "key": {
+        "#": "minecraft:red_wool",
+        "O": "#minecraft:planks"
+    },
+    "result": {
+        "id": "minecraft:red_bed",
+        "count": 1
+    },
+    "category": "misc",
+    "group": "bed"
+}

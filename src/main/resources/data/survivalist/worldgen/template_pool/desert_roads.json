@@ -1,0 +1,73 @@
+{
+  "name": "survivalist:desert_roads",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_straight",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_straight2",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_end",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/turn",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 4
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_4way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_3way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:desert_road/desert_centre",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

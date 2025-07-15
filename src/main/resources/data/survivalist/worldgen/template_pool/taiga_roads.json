@@ -1,0 +1,63 @@
+{
+  "name": "survivalist:taiga_roads",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/striaght",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/striaght2",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/end",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/turn",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/4way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:taiga_road/3way",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

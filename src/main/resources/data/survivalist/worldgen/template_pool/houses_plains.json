@@ -1,0 +1,183 @@
+{
+  "name": "survivalist:houses_plains",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/ruin_house01",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "survivalist:abandon_village/plains/house/ruin_house02",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        },
+        "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/ruin_house03",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/foundation0",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/foundation1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/foundation2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/foundation3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/foundation4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/butucher_ruins",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/church_ruin",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/abandon_farmland",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/barn_ruins2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/ironworker",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/libary_ruins",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/medium_house_ruin",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/medium_house_ruin1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/medium_house_ruin3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/blacksmith_ruins",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "survivalist:abandon_village/plains/house/large_house_ruins",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

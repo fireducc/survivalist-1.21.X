@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "survivalist:bronze_ingot"
+  ],
+  "result": {
+    "id": "survivalist:bronze_nugget",
+    "count": 9
+  }
+}

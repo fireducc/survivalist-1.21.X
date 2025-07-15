@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:stone",
+        "c":  "minecraft:copper_ingot",
+        "R": "minecraft:redstone",
+        "i": "minecraft:iron_ingot"
+    },
+    "pattern": [
+        "###",
+        "cRi",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:lodestone"
+    },
+    "category": "misc"
+}

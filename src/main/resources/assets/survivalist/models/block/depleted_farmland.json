@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "survivalist:block/depleted_dirt",
+    "top": "survivalist:block/depleted_farmland"
+  }
+}
