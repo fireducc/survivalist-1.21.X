@@ -26,26 +26,28 @@
   "item.survivalist.tin_nugget": "Tin Nugget",
   "item.survivalist.raw_tin": "Raw Tin",
   "item.survivalist.fox_hide": "Fox Hide",
-  "item.survivalist.copper_nugget": "Copper Nugget",
+  "item.survivalist.copper_nugget": "Old Copper Nugget",
 
 
-  "item.survivalist.copper_sword": "Copper Sword",
-  "item.survivalist.copper_pickaxe": "Copper Pickaxe",
-  "item.survivalist.copper_axe": "Copper Axe",
-  "item.survivalist.copper_shovel": "Copper Shovel",
-  "item.survivalist.copper_hoe": "Copper Hoe",
+  "item.survivalist.copper_sword": "Old Copper Sword",
+  "item.survivalist.copper_pickaxe": "Old Copper Pickaxe",
+  "item.survivalist.copper_axe": "Old Copper Axe",
+  "item.survivalist.copper_shovel": "Old Copper Shovel",
+  "item.survivalist.copper_hoe": "Old Copper Hoe",
   "item.survivalist.bronze_sword": "Bronze Sword",
   "item.survivalist.bronze_pickaxe": "Bronze Pickaxe",
   "item.survivalist.bronze_axe": "Bronze Axe",
   "item.survivalist.bronze_shovel": "Bronze Shovel",
   "item.survivalist.bronze_hoe": "Bronze Hoe",
 
-  "item.survivalist.copper_helmet": "Copper Helmet",
-  "item.survivalist.copper_chestplate": "Copper Chestplate",
-  "item.survivalist.copper_leggings": "Copper Leggings",
-  "item.survivalist.copper_boots": "Copper Boots",
+  "item.survivalist.copper_helmet": "Old Copper Helmet",
+  "item.survivalist.copper_chestplate": "Old Copper Chestplate",
+  "item.survivalist.copper_leggings": "Old Copper Leggings",
+  "item.survivalist.copper_boots": "Old Copper Boots",
   "item.survivalist.bronze_helmet": "Bronze Helmet",
   "item.survivalist.bronze_chestplate": "Bronze Chestplate",
   "item.survivalist.bronze_leggings": "Bronze Leggings",
-  "item.survivalist.bronze_boots": "Bronze Boots"
+  "item.survivalist.bronze_boots": "Bronze Boots",
+
+  "effect.survivalist.stasis": "Stasis"
 }

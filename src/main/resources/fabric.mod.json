@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "survivalist",
-	"version": "${2.2}",
+	"version": "${2.3}",
 	"name": "Survivalist",
 	"description": "A mod that redoes Minecraft progression",
 	"authors": [
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.8",
+		"minecraft": "~1.21.9",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

@@ -91,19 +91,22 @@ public class ModItems {
             content.addAfter(Items.RABBIT_HIDE, FOX_HIDE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
-            content.addAfter(Items.STONE_SWORD, COPPER_SWORD, BRONZE_SWORD);
+            content.addAfter(Items.COPPER_SWORD, BRONZE_SWORD);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
-            content.addAfter(Items.LEATHER_BOOTS, COPPER_HELMET, COPPER_CHESTPLATE, COPPER_LEGGINGS, COPPER_BOOTS, BRONZE_HELMET, BRONZE_CHESTPLATE, BRONZE_LEGGINGS, BRONZE_BOOTS);
+            content.addAfter(Items.COPPER_AXE, BRONZE_AXE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
+            content.addAfter(Items.COPPER_BOOTS, BRONZE_HELMET, BRONZE_CHESTPLATE, BRONZE_LEGGINGS, BRONZE_BOOTS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
-            content.addAfter(Items.STONE_HOE, COPPER_SHOVEL, COPPER_PICKAXE, COPPER_AXE, COPPER_HOE, BRONZE_SHOVEL, BRONZE_PICKAXE, BRONZE_AXE, BRONZE_HOE);
+            content.addAfter(Items.COPPER_HOE, BRONZE_SHOVEL, BRONZE_PICKAXE, BRONZE_AXE, BRONZE_HOE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
             content.addAfter(Items.RAW_COPPER, RAW_TIN);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-            content.addAfter(Items.IRON_NUGGET, COPPER_NUGGET, TIN_NUGGET, BRONZE_NUGGET);
+            content.addAfter(Items.COPPER_NUGGET, TIN_NUGGET, BRONZE_NUGGET);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
             content.addAfter(Items.COPPER_INGOT, TIN_INGOT, BRONZE_INGOT);

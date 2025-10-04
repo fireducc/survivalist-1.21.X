@@ -75,7 +75,7 @@ public class ModBlocks {
             content.addAfter(Items.CHISELED_STONE_BRICKS, SMALL_STONE_BRICKS, SMALL_STONE_BRICK_STAIRS, SMALL_STONE_BRICK_SLAB, SMALL_STONE_BRICK_WALL, CRACKED_SMALL_STONE_BRICKS, MOSSY_SMALL_STONE_BRICKS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
-            content.addAfter(Items.CHAIN, ROPE);
+            content.addAfter(Items.IRON_CHAIN, ROPE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
             content.addAfter(Items.CUT_SANDSTONE_SLAB, SANDSTONE_BRICKS);
@@ -84,7 +84,7 @@ public class ModBlocks {
             content.addAfter(Items.CUT_RED_SANDSTONE, RED_SANDSTONE_BRICKS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
-            content.addAfter(Items.CHAIN, ROPE);
+            content.addAfter(Items.IRON_CHAIN, ROPE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
         content.addAfter(Items.COAL_BLOCK, TIN_BLOCK, BRONZE_BLOCK);

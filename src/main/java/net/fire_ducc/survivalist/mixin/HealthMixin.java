@@ -23,14 +23,14 @@ public abstract class HealthMixin {
     @Inject(at = @At("TAIL"), method = "update")
     private void passiveRegeneration(ServerPlayerEntity player, CallbackInfo ci) {
         // based on code by AwwShot https://github.com/AwwShoot/saturation-fixer-quilt
-        if (player.getWorld().getServer().getGameRules().getBoolean(GameRules.NATURAL_REGENERATION) && player.getHealth() < player.getMaxHealth() && player.getHealth() > player.getMaxHealth() / 1.665) {
+        if (player.getEntityWorld().getServer().getGameRules().getBoolean(GameRules.NATURAL_REGENERATION) && player.getHealth() < player.getMaxHealth() && player.getHealth() > player.getMaxHealth() / 1.665) {
             regenTick++;
             if (regenTick > (this.foodLevel > 10 ? 100 : 200)) {
                 regenTick = 0;
                 player.heal(1);
             }
         }
-        if (player.getWorld().getServer().getGameRules().getBoolean(GameRules.NATURAL_REGENERATION) && player.getHealth() < player.getMaxHealth() && player.getHealth() < player.getMaxHealth() / 2.0) {
+        if (player.getEntityWorld().getServer().getGameRules().getBoolean(GameRules.NATURAL_REGENERATION) && player.getHealth() < player.getMaxHealth() && player.getHealth() < player.getMaxHealth() / 2.0) {
             regenTick++;
             if (regenTick > (this.foodLevel > 10 ? 100 : 200)) {
                 regenTick = 0;
