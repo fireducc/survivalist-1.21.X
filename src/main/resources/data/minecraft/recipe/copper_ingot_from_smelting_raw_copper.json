@@ -6,6 +6,6 @@
   "group": "copper_nugget",
   "ingredient": "minecraft:raw_copper",
   "result": {
-    "id": "survivalist:copper_nugget"
+    "id": "minecraft:copper_nugget"
   }
 }

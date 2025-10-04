@@ -15,7 +15,7 @@ public class WakeUpMixin {
         PlayerEntity player = (PlayerEntity)(Object)this;
 
         // only apply the effect if player is on server side
-        if (!player.getWorld().isClient) {
+        if (!player.getEntityWorld().isClient()) {
             player.addStatusEffect(new StatusEffectInstance(
                     StatusEffects.INSTANT_HEALTH,
                     1, 0));

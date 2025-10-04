@@ -47,5 +47,7 @@
   "item.survivalist.bronze_helmet": "Bronze Helmet",
   "item.survivalist.bronze_chestplate": "Bronze Chestplate",
   "item.survivalist.bronze_leggings": "Bronze Leggings",
-  "item.survivalist.bronze_boots": "Bronze Boots"
+  "item.survivalist.bronze_boots": "Bronze Boots",
+
+  "effect.survivalist.stasis": "Stasis"
 }

@@ -5,10 +5,15 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.entity.event.v1.EntitySleepEvents;
+import net.fire_ducc.survivalist.effect.StasisEffect;
 import net.fire_ducc.survivalist.registry.ModBlocks;
+import net.fire_ducc.survivalist.registry.ModEffects;
 import net.fire_ducc.survivalist.registry.ModItems;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.item.GlassBottleItem;
 import net.minecraft.potion.Potion;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
@@ -31,6 +36,8 @@ public class Survivalist implements ModInitializer {
 
 		ModBlocks.initialize();
 		ModItems.initialize();
+
+		ModEffects.register();
 
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TIN_ORE_PLACED_KEY);
 
