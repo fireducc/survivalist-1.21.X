@@ -24,10 +24,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
+import net.minecraft.world.rule.GameRules;
 import net.minecraft.world.tick.ScheduledTickView;
 import org.jetbrains.annotations.Nullable;
 
@@ -90,14 +90,11 @@ public class DepletedFarmland extends DepletedSoilBlock {
         }
     }
 
-    @Override
     public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, double fallDistance) {
-        if (world instanceof ServerWorld serverWorld
-                && world.random.nextFloat() < fallDistance - 0.5
-                && entity instanceof LivingEntity
-                && (entity instanceof PlayerEntity || serverWorld.getGameRules().getBoolean(GameRules.DO_MOB_GRIEFING))
-                && entity.getWidth() * entity.getWidth() * entity.getHeight() > 0.512F) {
-            setToDirt(entity, state, world, pos);
+        if (world instanceof ServerWorld serverWorld) {
+            if ((double)world.random.nextFloat() < fallDistance - (double)0.5F && entity instanceof LivingEntity && (entity instanceof PlayerEntity || (Boolean)serverWorld.getGameRules().getValue(net.minecraft.world.rule.GameRules.DO_MOB_GRIEFING)) && entity.getWidth() * entity.getWidth() * entity.getHeight() > 0.512F) {
+                setToDirt(entity, state, world, pos);
+            }
         }
 
         super.onLandedUpon(world, state, pos, entity, fallDistance);

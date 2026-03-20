@@ -1,6 +1,7 @@
 {
   "required": true,
   "package": "net.fire_ducc.survivalist.mixin",
+  "refmap": "survivalist.refmap.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BedMixin",
@@ -13,5 +14,8 @@
   ],
   "injectors": {
     "defaultRequire": 1
-	}
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
