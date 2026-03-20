@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.tag.TagKey;
 
+//legacy code
 public class CopperToolsMaterial {
 
     private static final TagKey<Item> REPAIRS_COPPER_TOOLS = ModItemTagProvider.REPAIRS_COPPER;

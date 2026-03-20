@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.Map;
 
+//legacy code
 public class CopperArmourMaterial {
     public static final int BASE_DURABILITY = 8;
     public static final RegistryKey<EquipmentAsset> COPPER_ARMOR_MATERIAL_KEY = RegistryKey.of(EquipmentAssetKeys.REGISTRY_KEY, Identifier.of(Survivalist.MOD_ID, "copper"));

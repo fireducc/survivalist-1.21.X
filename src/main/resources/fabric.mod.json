@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "survivalist",
-	"version": "${2.3}",
+	"version": "${2.4}",
 	"name": "Survivalist",
 	"description": "A mod that redoes Minecraft progression",
 	"authors": [

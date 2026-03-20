@@ -11,8 +11,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 
 @Mixin(PlayerEntity.class)
 public abstract class HungerBarMixin {
-        @Overwrite
-    public boolean canFoodHeal() {
-        return false;
-    }
+    @Overwrite
+    public boolean canFoodHeal() {return false;}
 }
