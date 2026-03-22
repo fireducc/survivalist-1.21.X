@@ -17,7 +17,7 @@ public class CopperPickBlockerMixin {
             ItemStack stack = (ItemStack)(Object)this;
 
             if (stack.getItem() == Items.COPPER_PICKAXE) {
-                if (state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE)) {
+                if (state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE) || state.isOf(Blocks.IRON_BLOCK) || state.isOf(Blocks.RAW_IRON_BLOCK)) {
                     cir.setReturnValue(false);
                 }
             }
