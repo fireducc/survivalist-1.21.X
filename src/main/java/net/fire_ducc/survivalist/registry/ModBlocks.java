@@ -23,6 +23,8 @@ public class ModBlocks {
     public static final Block DEEPSLATE_TIN_ORE = register("deepslate_tin_ore", Block::new, Block.Settings.create().mapColor(MapColor.GRAY).strength(4.5f, 4.5f).sounds(BlockSoundGroup.DEEPSLATE).requiresTool());
     public static final Block SANDSTONE_BRICKS = register("sandstone_bricks", Block::new, Block.Settings.create().mapColor(MapColor.PALE_YELLOW).strength(2.5f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool());
     public static final Block RED_SANDSTONE_BRICKS = register("red_sandstone_bricks", Block::new, Block.Settings.create().mapColor(MapColor.ORANGE).strength(2.5f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool());
+    public static final Block CRACKED_SANDSTONE_BRICKS = register("cracked_sandstone_bricks", Block::new, Block.Settings.create().mapColor(MapColor.PALE_YELLOW).strength(2.5f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool());
+    public static final Block CRACKED_RED_SANDSTONE_BRICKS = register("cracked_red_sandstone_bricks", Block::new, Block.Settings.create().mapColor(MapColor.ORANGE).strength(2.5f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool());
     public static final Block SMALL_STONE_BRICKS = register("small_stone_bricks", Block::new, Block.Settings.create().mapColor(MapColor.GRAY).strength(2.5f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool());
     public static final Block SMALL_STONE_BRICK_SLAB = register("small_stone_brick_slab", SlabBlock::new, AbstractBlock.Settings.copyShallow(SMALL_STONE_BRICKS));
     public static final Block SMALL_STONE_BRICK_STAIRS = register("small_stone_brick_stairs", settings -> new StairsBlock(SMALL_STONE_BRICKS.getDefaultState(), settings), AbstractBlock.Settings.copyShallow(SMALL_STONE_BRICKS));
