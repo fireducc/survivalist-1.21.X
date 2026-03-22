@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 import java.util.Map;
 
 public class BronzeArmourMaterial {
-    public static final int BASE_DURABILITY = 12;
+    public static final int BASE_DURABILITY = 13;
     public static final RegistryKey<EquipmentAsset> BRONZE_ARMOR_MATERIAL_KEY = RegistryKey.of(EquipmentAssetKeys.REGISTRY_KEY, Identifier.of(Survivalist.MOD_ID, "bronze"));
     private static final TagKey<Item> REPAIRS_BRONZE_ARMOUR = ModItemTagProvider.REPAIRS_BRONZE;
     public static final ArmorMaterial INSTANCE = new ArmorMaterial(

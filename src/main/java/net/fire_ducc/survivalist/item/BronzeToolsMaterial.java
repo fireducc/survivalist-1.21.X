@@ -12,7 +12,7 @@ public class BronzeToolsMaterial {
 
     public static final ToolMaterial BRONZE_TOOL_MATERIAL = new ToolMaterial(
             ModBlockTagProvider.INCORRECT_FOR_BRONZE,
-            200,
+            215,
             5.0F,
             1.5F,
             10,

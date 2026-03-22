@@ -22,7 +22,8 @@ public class CopperArmourMaterial {
                     EquipmentType.HELMET, 1,
                     EquipmentType.CHESTPLATE, 3,
                     EquipmentType.LEGGINGS, 2,
-                    EquipmentType.BOOTS, 1
+                    EquipmentType.BOOTS, 1,
+                    EquipmentType.BODY, 3
             ),
             5,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
