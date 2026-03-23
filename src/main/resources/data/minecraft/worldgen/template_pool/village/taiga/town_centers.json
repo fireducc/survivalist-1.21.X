@@ -4,34 +4,34 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "minecraft:mossify_20_percent",
         "projection": "rigid"
       },
-      "weight": 20
+      "weight": 15
     },
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "minecraft:mossify_20_percent",
         "projection": "rigid"
       },
-      "weight": 20
+      "weight": 15
     },
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "survivalist:taiga_meeting_point_1",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "minecraft:mossify_70_percent",
         "projection": "rigid"
       },
-      "weight": 80
+      "weight": 40
     },
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "survivalist:taiga_meeting_point_2",
-        "processors": "minecraft:mossify_10_percent",
+        "processors": "minecraft:mossify_70_percent",
         "projection": "rigid"
       },
       "weight": 80

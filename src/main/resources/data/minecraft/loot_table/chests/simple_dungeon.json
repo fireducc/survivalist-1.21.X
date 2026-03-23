@@ -120,7 +120,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "survivalist:copper_nugget",
+          "name": "minecraft:copper_nugget",
           "weight": 10
         },
         {
